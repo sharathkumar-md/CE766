@@ -1,0 +1,15 @@
+Parameter,Symbol,Value,Unit,Source
+Catchment Area,A_c,148.0,km^2,KC Valley sub-basin (IISc ETR 116)
+Water Spread Area,A,380.0,ha,IISc ETR 116 Sec 4
+Mean Water Depth,z,2.0,m,Bathymetric survey (IISc ETR 116)
+Active Water Volume,V,7.60,MCM,A * z (5.50 MCM dry season)
+Anoxic Wet Slush Volume,V_slush,6.56,MCM,3.28 Million Tons slush (IISc Table 3.4)
+Legacy Phosphorus in Slush,M_P,82005.0,Tons,2.5% P by dry weight in slush bed
+Daily Sewage Inflow,Q_in,500.0,MLD,Domestic sewage influx (182.5 MCM/yr)
+Theoretical Retention Time,HRT,15.2,days,Plug-flow retention time
+Effective Net Loss Rate,b_base,0.52,yr^-1,Steady-state baseline parameterization
+Half-Saturation Threshold,m,1.0,mg/L,Anoxic transition threshold (DO -> 0)
+Hill Exponent,q,2.0,-,Nonlinear sediment release coefficient
+Max Internal Sediment Release,r_base,1.0,mg/L/yr,Undredged anoxic slush bed
+Initial Lake Phosphorus,P_init,2.50,mg/L,Observed baseline state (2026)
+Target Restoration Threshold,P_crit,0.50,mg/L,Clean water quality standard
