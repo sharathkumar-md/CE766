@@ -21,7 +21,8 @@ This repository contains the physical parameterization and Python simulation cod
 *Preliminary Figure: (a) Annual phosphorus flux balance showing steady-state equilibrium intersections between natural removal and total inputs; (b) Deterministic 20-year phosphorus concentration trajectories (2026–2045) under four management interventions.*
 
 ## 4. Repository Contents
-* `bellandur_final_simulation.py`: Final Python script running deterministic and 100-member Monte Carlo simulations, parameter sensitivity analysis, and cost-reduction trade-offs.
+* `bellandur_final_simulation.py`: Final Python script reading `baseline_parameters.csv` to run deterministic and 100-member Monte Carlo simulations, sensitivity analysis, and cost-reduction trade-offs.
+* `baseline_parameters.csv`: Compiled hydrological, bathymetric, and nutrient baseline parameters.
 * `Figure1_Stochastic_Trajectories.png`: Final trajectory and reliability figure.
 * `Figure2_Sensitivity_Cost_Tradeoff.png`: Final parameter sensitivity and cost trade-off figure.
 * `lake_model.py`: Preliminary deterministic simulation script.
